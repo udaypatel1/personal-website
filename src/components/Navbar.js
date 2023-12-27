@@ -142,7 +142,6 @@ const Navbar = () => {
 
       <NavbarItems isMobileMenuOpen={isMobileMenuOpen}>
         <NavbarItem href='/about'>About</NavbarItem>
-        <NavbarItem href='/blog'>Blog</NavbarItem>
         <NavbarItem href='/resume'>Resume</NavbarItem>
       </NavbarItems>
     </NavbarContainer>
