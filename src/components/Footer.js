@@ -35,6 +35,11 @@ const IconLink = styled.a`
   }
 `;
 
+const FooterDetail = styled.div`
+  font-family: 'Poppins', sans-serif;
+  font-size: .75rem;
+`;
+
 const Footer = () => {
   return (
     <FooterContainer>
@@ -49,6 +54,7 @@ const Footer = () => {
           <img src="./mail_logo.png" alt="Email" />
         </IconLink>
       </IconContainer>
+      <FooterDetail>&copy; est. 2024 All Rights Reserved.</FooterDetail>
     </FooterContainer>
   );
 };
