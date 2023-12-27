@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const NavbarContainer = styled.nav`
-  background-color: white;
+  background: rgba(255, 255, 255, 0.8); /* Use an RGBA color with alpha for translucency */
   padding: 10px;
   color: white;
   display: flex;
@@ -11,12 +11,12 @@ const NavbarContainer = styled.nav`
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 1000; /* Set a high z-index value */
+  z-index: 1000; /* Set a higher z-index value */
+  backdrop-filter: blur(40px); /* Adjust the blur amount as needed */
 
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;
-    z-index: 2000; /* Set a higher z-index value for mobile */
   }
 `;
 

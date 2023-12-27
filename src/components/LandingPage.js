@@ -8,6 +8,7 @@ const LandingPageContainer = styled.div`
   margin: 0 auto;
   margin-top: 2rem;
   padding: 20px;
+  z-index: 1;
   //background-color: rgb(0,0,0,0.1);
 
   @media (max-width: 768px) {
