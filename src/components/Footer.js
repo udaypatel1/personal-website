@@ -25,7 +25,7 @@ const IconLink = styled.a`
 
   &:hover {
     color: orange;
-    transform: scale(1.2); /* Increase the scale on hover */
+    transform: scale(1.35); /* Increase the scale on hover */
   }
 
   img {
