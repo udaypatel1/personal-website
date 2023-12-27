@@ -4,8 +4,7 @@ import styled from 'styled-components';
 
 const FooterContainer = styled.footer`
   background: rgba(51, 51, 51, 0.8);
-  background-color: white;
-  color: white;
+  background-color: #f8f8f8;
   padding: 20px;
   text-align: center;
 `;

@@ -25,6 +25,7 @@ const TopSection = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  z-index: 1000
 `;
 
 const Logo = styled.a`
@@ -47,6 +48,7 @@ const NavbarItems = styled.div`
     align-items: flex-start;
     width: 100%;
     margin-right: 0;
+    z-index: 1000;
   }
 `;
 
@@ -70,6 +72,7 @@ const NavbarItem = styled.a`
 
   @media (max-width: 768px) {
     margin: 10px 0;
+    z-index: 1000;
   }
 `;
 
