@@ -29,7 +29,7 @@ const TopSection = styled.div`
 
 const Logo = styled.a`
   font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 10px;
   margin-left: 20px;
   color: black;

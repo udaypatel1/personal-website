@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import LandingPage from "./components/LandingPage";
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <div>
         <Navbar />
+        <LandingPage />
       </div>
     </>
   );
