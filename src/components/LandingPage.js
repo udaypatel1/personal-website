@@ -17,7 +17,7 @@ const LandingPageContainer = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  flex: 1;
+  flex: .5;
   border-radius: 50%;
   overflow: hidden;
   margin-right: 20px;

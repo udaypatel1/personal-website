@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const NavbarContainer = styled.nav`
   background: rgba(255, 255, 255, 0.8); /* Use an RGBA color with alpha for translucency */
+  //background: white; /* to remove the blur effect */
   padding: 10px;
   color: white;
   display: flex;
