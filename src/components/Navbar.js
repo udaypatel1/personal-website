@@ -1,6 +1,7 @@
 // src/components/Navbar.js
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const NavbarContainer = styled.nav`
   background: rgba(255, 255, 255, 0.85); /* Use an RGBA color with alpha for translucency */
@@ -53,7 +54,7 @@ const NavbarItems = styled.div`
   }
 `;
 
-const NavbarItem = styled.a`
+const NavbarItem = styled(Link)`
   margin: 0 10px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
@@ -142,9 +143,9 @@ const Navbar = () => {
       </TopSection>
 
       <NavbarItems isMobileMenuOpen={isMobileMenuOpen}>
-        <NavbarItem href='/'>Home</NavbarItem>
-        <NavbarItem href='/about'>About</NavbarItem>
-        <NavbarItem href='/resume'>Resume</NavbarItem>
+        <NavbarItem to='/'>Home</NavbarItem>
+        <NavbarItem to='/about'>About</NavbarItem>
+        <NavbarItem to='/resume'>Resume</NavbarItem>
       </NavbarItems>
     </NavbarContainer>
   );
