@@ -46,7 +46,7 @@ const NavbarItems = styled.div`
   @media (max-width: 768px) {
     display: ${(props) => (props.isMobileMenuOpen ? 'flex' : 'none')};
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     margin-right: 0;
     z-index: 1000;
@@ -65,6 +65,7 @@ const NavbarItem = styled.a`
   transition: background-color 0.3s, color 0.3s;
   background-color: white;
   color: black;
+  border: solid black;
 
   &:hover {
     background-color: orange;
@@ -141,6 +142,7 @@ const Navbar = () => {
       </TopSection>
 
       <NavbarItems isMobileMenuOpen={isMobileMenuOpen}>
+        <NavbarItem href='/'>Home</NavbarItem>
         <NavbarItem href='/about'>About</NavbarItem>
         <NavbarItem href='/resume'>Resume</NavbarItem>
       </NavbarItems>

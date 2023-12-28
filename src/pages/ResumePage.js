@@ -1,5 +1,3 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import styled from "styled-components";
 
 const MainContainer = styled.div`
@@ -12,9 +10,7 @@ const MainContainer = styled.div`
 function ResumePage() {
   return (
     <MainContainer>
-      <Navbar />
       I should have my resume here soon!
-      <Footer />
     </MainContainer>
   );
 }

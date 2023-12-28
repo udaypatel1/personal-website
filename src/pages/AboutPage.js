@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import AboutContent from "../components/AboutContent";
-import AboutLandingHero from "../components/AboutLandingHero";
+import AboutBodyContent from "../components/AboutBodyContent";
+import AboutTitleContent from "../components/AboutTitleContent";
 
 const MainContainer = styled.div`
   background-color: #f8f8f8; /* Set your desired off-white color code */
@@ -12,8 +12,8 @@ const MainContainer = styled.div`
 function AboutPage() {
   return (
     <MainContainer>
-      <AboutLandingHero />
-      <AboutContent />
+      <AboutTitleContent />
+      <AboutBodyContent />
     </MainContainer>
   );
 }
