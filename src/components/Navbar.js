@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const NavbarContainer = styled.nav`
-  background: rgba(255, 255, 255, 0.8); /* Use an RGBA color with alpha for translucency */
+  background: rgba(255, 255, 255, 0.85); /* Use an RGBA color with alpha for translucency */
   //background: white; /* to remove the blur effect */
   padding: 10px;
   color: white;
@@ -13,7 +13,7 @@ const NavbarContainer = styled.nav`
   position: sticky;
   top: 0;
   z-index: 1000; /* Set a higher z-index value */
-  backdrop-filter: blur(40px); /* Adjust the blur amount as needed */
+  backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
 
   @media (max-width: 768px) {
     flex-direction: column;

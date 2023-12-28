@@ -37,7 +37,7 @@ const Image = styled.img`
 `;
 
 const TextContainer = styled.div`
-  flex: 1;
+  flex: .75;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +63,7 @@ const JobTitle = styled.h2`
   font-family: 'Poppins', sans-serif;
   font-size: 1.15rem;
   font-weight: 500;
-  padding: 5px;
+  padding: 4px;
   color: black;
   text-align: center;
 `;

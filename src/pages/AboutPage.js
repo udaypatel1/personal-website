@@ -1,6 +1,6 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import styled from "styled-components";
+import AboutContent from "../components/AboutContent";
+import AboutLandingHero from "../components/AboutLandingHero";
 
 const MainContainer = styled.div`
   background-color: #f8f8f8; /* Set your desired off-white color code */
@@ -12,9 +12,8 @@ const MainContainer = styled.div`
 function AboutPage() {
   return (
     <MainContainer>
-      <Navbar />
-      Hi! Thanks for visiting my website!
-      <Footer />
+      <AboutLandingHero />
+      <AboutContent />
     </MainContainer>
   );
 }

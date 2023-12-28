@@ -1,6 +1,4 @@
-import Navbar from "../components/Navbar";
 import LandingPage from "../components/LandingPage";
-import Footer from "../components/Footer";
 import styled from "styled-components";
 
 const MainContainer = styled.div`
@@ -13,9 +11,7 @@ const MainContainer = styled.div`
 function HomePage() {
   return (
     <MainContainer>
-      <Navbar />
       <LandingPage />
-      <Footer />
     </MainContainer>
   );
 }
