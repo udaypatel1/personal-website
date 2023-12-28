@@ -127,6 +127,10 @@ const Navbar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+const closeMobileMenu = () => {
+  setMobileMenuOpen(false);
+}
+
   return (
     <NavbarContainer>
       <TopSection>
@@ -143,9 +147,9 @@ const Navbar = () => {
       </TopSection>
 
       <NavbarItems isMobileMenuOpen={isMobileMenuOpen}>
-        <NavbarItem to='/'>Home</NavbarItem>
-        <NavbarItem to='/about'>About</NavbarItem>
-        <NavbarItem to='/resume'>Resume</NavbarItem>
+        <NavbarItem to='/' onClick={closeMobileMenu}>Home</NavbarItem>
+        <NavbarItem to='/about' onClick={closeMobileMenu}>About</NavbarItem>
+        <NavbarItem to='/resume' onClick={closeMobileMenu}>Resume</NavbarItem>
       </NavbarItems>
     </NavbarContainer>
   );
