@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ResumeBodyContent from "../components/ResumeBodyContent";
 
 const MainContainer = styled.div`
   background-color: #f8f8f8; /* Set your desired off-white color code */
@@ -10,7 +11,7 @@ const MainContainer = styled.div`
 function ResumePage() {
   return (
     <MainContainer>
-      I should have my resume here soon!
+      <ResumeBodyContent />
     </MainContainer>
   );
 }
