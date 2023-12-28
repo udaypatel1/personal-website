@@ -42,12 +42,19 @@ const TextContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 `;
 
 const Name = styled.h1`
   font-family: 'Poppins', sans-serif;
   font-size: 5rem;
-  margin-bottom: 2.5px;
+  padding: 10px;
   color: black;
   text-align: center;
 `;
@@ -56,7 +63,7 @@ const JobTitle = styled.h2`
   font-family: 'Poppins', sans-serif;
   font-size: 1.15rem;
   font-weight: 500;
-  margin: 0.5px;
+  padding: 5px;
   color: black;
   text-align: center;
 `;
