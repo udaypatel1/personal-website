@@ -31,7 +31,7 @@ const AboutContent = () => {
       </ListContainer>
 
       <Paragraph>
-        If you'd like to get in touch, please send a personalized connect to my <Highlight link="https://www.linkedin.com/in/your-linkedin-profile">LinkedIn</Highlight> or
+        If you'd like to get in touch, please send a personalized connect to my <Highlight link="https://www.linkedin.com/in/uday3patel">LinkedIn</Highlight> or
         send me a <Highlight link="mailto:uday3patel@gmail.com">message</Highlight>.
       </Paragraph>
     </ContentContainer>

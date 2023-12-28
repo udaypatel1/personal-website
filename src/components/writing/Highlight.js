@@ -12,6 +12,7 @@ const HighlightLink = styled.a`
 
   &:hover {
     transform: translateY(-3px);
+    color: #545454;
   }
 `;
 
