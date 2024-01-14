@@ -49,7 +49,7 @@ const NavbarItems = styled.div`
     flex-direction: column;
     align-items: center;
     z-index: 1000;
-    margin-top: 4.83rem;
+    margin-top: 5rem;
     background: rgba(255, 255, 255, 0.85);
     position: absolute;
     width: 100%;
