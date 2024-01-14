@@ -48,9 +48,13 @@ const NavbarItems = styled.div`
     display: ${(props) => (props.isMobileMenuOpen ? 'flex' : 'none')};
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-right: 0;
     z-index: 1000;
+    margin-top: 4.83rem;
+    background: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 `;
 
