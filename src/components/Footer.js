@@ -1,6 +1,9 @@
 // src/components/Footer.js
 import React from 'react';
 import styled from 'styled-components';
+import mailIcon from '../assets/mail_logo.png';
+import githubIcon from '../assets/github_logo.png';
+import linkedinIcon from '../assets/linkedin_logo.png';
 
 const FooterContainer = styled.footer`
   background: rgba(51, 51, 51, 0.8);
@@ -45,13 +48,13 @@ const Footer = () => {
     <FooterContainer>
       <IconContainer>
         <IconLink href="https://github.com/udaypatel1" target="_blank" rel="noopener noreferrer">
-          <img src="./github_logo.png" alt="GitHub" />
+          <img src={githubIcon} alt="GitHub" />
         </IconLink>
         <IconLink href="https://www.linkedin.com/in/uday3patel/" target="_blank" rel="noopener noreferrer">
-          <img src="./linkedin_logo.png" alt="LinkedIn" />
+          <img src={linkedinIcon} alt="LinkedIn" />
         </IconLink>
         <IconLink href="mailto:uday3patel@gmail.com">
-          <img src="./mail_logo.png" alt="Email" />
+          <img src={mailIcon} alt="Email" />
         </IconLink>
       </IconContainer>
       <FooterDetail>&copy; est. 2024 All Rights Reserved.</FooterDetail>

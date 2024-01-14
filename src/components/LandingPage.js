@@ -1,6 +1,7 @@
 // src/components/LandingPage.js
 import React from 'react';
 import styled from 'styled-components';
+import selfie from '../assets/me.png';
 
 const LandingPageContainer = styled.div`
   display: flex;
@@ -72,7 +73,7 @@ const LandingPage = () => {
   return (
     <LandingPageContainer>
       <ImageContainer>
-        <Image src="/me.png" alt="Uday Patel Picture" />
+        <Image src={selfie} alt="Uday Patel Picture" />
       </ImageContainer>
 
       <TextContainer>
