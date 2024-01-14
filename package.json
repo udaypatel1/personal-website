@@ -15,7 +15,10 @@
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "react-app-rewired": "^2.2.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
